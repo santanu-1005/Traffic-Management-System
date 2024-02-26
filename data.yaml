@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 4
+names: ['Ambulance', 'Bus', 'Car', 'Truck']
+
+# roboflow:
+#   workspace: niisackitey13-gmail-com
+#   project: vehicles-uka8d
+#   version: 3
+#   license: CC BY 4.0
+#   url: https://universe.roboflow.com/niisackitey13-gmail-com/vehicles-uka8d/dataset/3
