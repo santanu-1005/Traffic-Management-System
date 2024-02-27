@@ -6,9 +6,9 @@ from ultralytics import YOLO
 
 ZONE_POLYGON = np.array([
     [0,0],
-    [1280,0],
-    [1250, 720],
-    [0, 720]
+    [900,0],
+    [900, 880],
+    [0, 880]
 ])
 
 def parse_arg() -> argparse.Namespace:
