@@ -2,7 +2,7 @@ import multiprocessing
 from ultralytics import YOLO
 
 def main():
-    model = YOLO("runs/detect/train6/weights/best.pt")
+    model = YOLO("model_files/yolov8n.pt")
     model.predict(source="test.mp4")
 
 if __name__ == '__main__':
