@@ -1,6 +1,6 @@
-train: train/images
-val: valid/images
-test: test/images
+train: model_files/train/images
+val: model_files/valid/images
+test: model_files/test/images
 
 nc: 4
 names: ['Ambulance', 'Bus', 'Car', 'Truck']
